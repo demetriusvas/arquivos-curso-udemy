@@ -1,0 +1,84 @@
+/**
+#caixa {
+    width: 300px;
+    height: 300px;
+    /*background: url("../imagens/camera.png");*/
+    /*background: linear-gradient(60deg, red, green);
+    background: radial-gradient(lightblue, lightgreen);
+}
+
+#caixa h1 {
+    /*background: rgba(255, 255, 255, 0.7);
+}
+
+/**
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 20px 90px;
+    -webkit-border-radius: 20px 90px;
+    -moz-border-radius: 20px 90px;
+}*/
+/**** SOMBRA ****/
+/**
+#caixa {
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: #009670;
+    box-shadow: 10px 10px 20px 5px lightgreen;
+}
+
+#caixa h1 {
+    color: white;
+    text-shadow: 20px 20px 5px rgba(0,0,0,0.6);
+}
+***/
+
+/************************************************
+ANIMAÇÕES
+***********************************************
+@keyframes animacao-caixa {
+    from {
+        background: red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to {
+        background: green;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    animation: animacao-caixa 5s 3s 2 alternate;
+}*/
+
+/************************************************
+TRANSIÇÕES
+************************************************/
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: lightgreen;
+}
+
+#caixa:hover {
+    width: 400px;
+    background: lightseagreen;
+    transition: all 3s;
+}
