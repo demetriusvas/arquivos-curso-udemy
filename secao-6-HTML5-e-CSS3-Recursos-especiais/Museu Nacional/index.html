@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Museu Nacional</title>
+
+    <!--[if lt IE 9]>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="container"><!-- Inicio do Container -->
+
+        <header><!-- Inicio do HEADER -->
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav><!-- Inicio do NAV -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav><!--/ Fim do NAV -->
+
+        </header><!--/ Fim do HEADER -->
+
+        <div id="principal"><!-- Inicio do PRINCIPAL -->
+        
+            <div id="conteudo"><!-- Inicio do CONTEUDO -->
+                <section id="capa">
+                    <img src="imagens/museu.png" alt="">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Video: Conheça o Museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o Museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.171351339272!2d-43.22850583556034!3d-22.90704984363817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1591826933467!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="#">Texto 1</a></li>
+                            <li><a href="#">Texto 2</a></li>
+                            <li><a href="#">Texto 3</a></li>
+                            <li><a href="#">Texto 4</a></li>
+                            <li><a href="#">Texto 5</a></li>
+                            <li><a href="#">Texto 6</a></li>
+                            <li><a href="#"><strong>Veja todos (65)</strong></a></li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 Anos de História</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Optio aliquid soluta consectetur incidunt provident modi 
+                            fugiat quas enim nisi. Molestiae totam repudiandae ipsa 
+                            accusantium doloribus? Ipsum nostrum illo iure earum.
+                        </p>
+                        <a href=""><strong>Leia Mais</strong></a>
+                    </article>
+                </section>
+            </div><!--/ Fim do CONTEUDO -->
+
+            <aside><!-- Inicio do ASIDE -->
+                <section id="depoimento"><!-- Inicio Seção Depoimento -->
+                    <img src="imagens/depoimento.png" alt="">
+                </section><!--/ Fim Seção Depoimento -->
+
+                <section id="visita"><!-- Inicio Seção Visita -->
+                    <h4>Faça uma Visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data:</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd Pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+
+                    </form>
+                </section><!--/ Fim Seção Visita -->
+
+                <section id="galeria">
+                    <h4>Galeria de Fotos</h4>
+
+                    <a href="">
+                        <img src="imagens/imagem1.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem2.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem3.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem4.jpg" height="93" width="93">
+                    </a>
+
+                </section>
+
+            </aside><!-- Fim do ASIDE -->
+            
+            <footer>
+                <p>
+                    <a href="#">Home</a>
+                    <a href="#">Exposições</a>
+                    <a href="#">Pesquisa</a>
+                    <a href="#">Acervo</a>
+                    <a href="#">Videos</a>
+                    <a href="#">Fotos</a>
+                    <a href="#">Contato</a>
+                </p>
+                <p>
+                    2019 <a href="">Museu Nacional</a> - Todos os direitos reservados
+                </p>
+            </footer>
+
+        </div><!--/ Fim do PRINCIPAL -->
+        
+        
+
+    </div><!--/ Fim do Container -->
+    
+</body>
+</html>
